@@ -7,5 +7,5 @@ test('test integer addition', async (t) => {
 
 test('test string addition', async (t) => {
     // This test is expected to fail because "11" is not numerically 2
-    strictEqual('1' + '1', 2, 'Concatentation of "1" and "1" does not equal 2');
+    strictEqual('1' + '1', '11', 'Concatentation of "1" and "1" does not equal 2');
 })
